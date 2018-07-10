@@ -9,7 +9,7 @@ RUN apt-get install -y pandoc \
 libcurl4-openssl-dev \
 libxml2-dev \
 libxslt1-dev \
-libssl-dev \
+libssl-dev
 
 # Installs biolite
 # Which is needed to insall the bioconductor package edgeR
