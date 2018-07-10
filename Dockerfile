@@ -18,7 +18,7 @@ RUN Rscript -e 'source("https://bioconductor.org/biocLite.R")' \
 				'biocLite("DESeq2")'
 
 # Installs devtools
-Run Rscript -e 'install.packages("devtools")'
+Run Rscript -e 'install.packages(c("devtools","getopt"))'
 
 # Installs LncPipeReporter
 Run Rscript -e 'devtools::install_github("bioinformatist/LncPipeReporter")'
