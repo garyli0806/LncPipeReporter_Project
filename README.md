@@ -3,7 +3,7 @@ This is a containerized version of [@bioinformatist's](https://github.com/bioinf
 [LncPipeReporter](https://github.com/bioinformatist/LncPipeReporter): An R package for automatically aggregating and summarizing lncRNA analysis results.
 
 ## Overview
-This version of [LncPipeReporter](https://github.com/bioinformatist/LncPipeReporter) was containerized via Docker so that it could be used on any platform.
+This version of [LncPipeReporter](https://github.com/bioinformatist/LncPipeReporter) was containerized via Ubuntu Docker so that it could be used on any platform.
 At the time of this writing, the original app only supports Unix-like operating systems, and on these systems it may require certain dependencies. 
 
 This repository contains example data, the DockerFile for creating an image with [LncPipeReporter](https://github.com/bioinformatist/LncPipeReporter), and a wrapper file needed to run the DockerFile.
