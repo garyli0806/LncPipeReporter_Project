@@ -21,6 +21,3 @@ To launch, an input and output folder must be specified according to the wrapper
 docker run --rm -v ${PWD}:/data -w /data garyli0806/lncpipereporter --input demo_results --output
 Out2
 ```
-> Here, the current working directory is my Desktop, which contains the folder "demo_results" that has all of the input files. The container returns an output directory called "Out2" with all of the results that came from the input files.
-
-![](Image/Out2.png)
