@@ -23,4 +23,4 @@ Out2
 ```
 > Here, the current working directory is my Desktop, which contains the folder "demo_results" that has all of the input files. The container returns an output directory called "Out2" with all of the results that came from the input files.
 
-![](Img/Out2.png)
+![](Desktop/Out2.png)
